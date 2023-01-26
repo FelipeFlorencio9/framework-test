@@ -7,33 +7,46 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/css/uikit.min.css" />
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.22/dist/js/uikit-icons.min.js"></script>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
     </head>
-    <body class="uk-container uk-margin-auto uk-background-center-center uk-background-cover  uk-panel uk-flex-middle uk-flex-center" style="background-image: url(https://images.unsplash.com/photo-1615719413546-198b25453f85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1336&q=80)">
+    <body class="uk-container uk-cover-container cover">
+        <img src="./img/pranjall-kumar-sejqj6Eaqe8-unsplash.jpg" alt="" uk-cover>
+        <div uk-height-viewport="expand: true">
+            <div class=" uk-card logo uk-margin-top uk-align-center  uk-height-medium">
+                <h1 class=" uk-heading-line uk-text-center">Guapa</h1>
+                <h2 class=" uk-margin-remove uk-margin-auto-bottom uk-text-center">Pizzaria</h2>
+            </div>
+            <div class="mycard uk-card uk-card-default uk-card-body uk-margin-top">
+                <div class="sections uk-margin-auto-bottom uk-flex">
+                    <button class="uk-button uk-button-default uk-text-capitalize">Email</button>
+                    <button class=" uk-button-default uk-text-capitalize">Phone Number</button>
+                </div>
+                <legend class="uk-legend">Login With Email</legend>
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Enter email I’d" aria-label="Input">
+                </div>
+                <div class="uk-margin">
+                    <input class="uk-input" type="text" placeholder="Enter Password" aria-label="Input">
+                </div>
+                <a class="password uk-link-text uk-align-right uk-margin-auto-bottom " href="#">Forgot Password?</a>
+                <button class="uk-button uk-button-default uk-align-center uk-text-capitalize">Login</button>
+                <footer>
+                    <p>Don’t have account?</p>
+                    <a class="account uk-link-text">Create Account</a>
+                </footer>
+                
+                
+            </div>
+        </div>
         
-        <h1 class="uk-heading-line uk-text-center"><span>Welcome to App!</span></h1>
-        <form>
-            <div class="uk-margin">
-                <div class="uk-inline">
-                    <span class="uk-form-icon" uk-icon="icon: user"></span>
-                    <input class="uk-input" type="text" aria-label="Not clickable icon" placeholder="Email ou Usuário">
-                </div>
-            </div>
-            <div class="uk-margin">
-                <div class="uk-inline">
-                    <span class="uk-form-icon uk-form-icon-flip" uk-icon="icon: lock"></span>
-                    <input class="uk-input" type="text" aria-label="Not clickable icon" placeholder="Senha">
-                </div>
-            </div>
-        </form>
-        <button class="uk-button uk-button-default">Continue</button>
-        <footer>
-            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
-            <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
-            <a href="" class="uk-icon-button" uk-icon="youtube"></a>
-        </footer>
     </body>
 </html>
