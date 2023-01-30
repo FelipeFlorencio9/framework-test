@@ -1,0 +1,31 @@
+Arguments: 
+  /home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/bin/node /home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/bin/yarn add uikit
+
+PATH: 
+  /home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/bin:/home/felipedeoliveiraflorencio/.local/bin:/home/felipedeoliveiraflorencio/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.12.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/felipedeoliveiraflorencio/Documentos/framework-test/FelipeFlorencio/webpack/app/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/felipedeoliveiraflorencio/.nvm/versions/node/v18.12.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
