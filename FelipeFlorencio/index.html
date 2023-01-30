@@ -17,6 +17,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
+        <script src="uikit-3.15.22/js/uikit.min.js"></script>
+        <script src="uikit-3.15.22/js/uikit-icons.min.js"></script>
+        <script src="script.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     </head>
     <body class="uk-container uk-container-center uk-cover-container cover">
         <img src="./img/pranjall-kumar-sejqj6Eaqe8-unsplash.jpg" alt="" uk-cover>
@@ -27,7 +31,7 @@
             </div>
             <div class="mycard uk-card uk-card-default uk-card-body uk-margin-top">
                 <div class="sections uk-margin-auto-bottom uk-flex">
-                    <button class="uk-button uk-button-default uk-text-capitalize">Email</button>
+                    <button class="uk-button uk-button-default uk-text-capitalize" id="email">Email</button>
                     <button class=" uk-button-default uk-text-capitalize">Phone Number</button>
                 </div>
                 <legend class="uk-legend">Login With Email</legend>
@@ -47,6 +51,12 @@
                 
             </div>
         </div>
-        
+        <script>
+            $('#email').on("click",goEmailSection);
+            function goEmailSection (){
+                $('footer').append('<button class="uk-button-default">ClickOn!<button>')
+            }
+            // $('footer').prepend('<button class="uk-button-default">Teste<button>')
+        </script>
     </body>
 </html>
